@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import ChatContainer from './components/ChatContainer';
 
-const API_URL = "http://127.0.0.1:8000/chat";
+// Ganti dari http://127.0.0.1:8000/chat
+const API_URL = "https://gibby227-mindease.hf.space/chat";
 
 function App() {
   const [messages, setMessages] = useState([
